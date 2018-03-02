@@ -62,7 +62,7 @@ class FourArmedBandit extends Component {
       <div>
         <header className="App-header">
           <h1 className="App-title">Algorithms to Live By - Four-armed Bandit Problem</h1>
-          <button onClick={() => this.props.chooseGame(1)}>Switch Game</button>
+          <button onClick={() => this.props.chooseGame(3)}>Switch Game</button>
         </header>
         <p className="App-intro">
           Each slot machine has a set percent chance of winning between {min}% and {max}%, with the average machine being 50%. Try to win the most games with {turns} pulls.

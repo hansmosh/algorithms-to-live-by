@@ -1,0 +1,7 @@
+.slots.done {
+  color: gold;
+}
+
+.item.selected {
+  color: hotpink;
+}
